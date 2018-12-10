@@ -1,6 +1,6 @@
-var song;
+
 var amp;
-var button;
+
 var mic;
 
 var volhistory = [];
@@ -36,14 +36,7 @@ noFill();
     var trala= vol*80;
    fill(spectrum);
       ellipse(0, 0, trala, trala);
-  // beginShape();
 
-  // for (var i = 0; i < 1440; i++) {
-  //  var r = map(vol, 0, 5, 1000, 500);
-      //  strokeWeight(1);
-  //   var x = r * cos(i);
-  //   var y = r * sin(i);
-  //   vertex(x, y);
 
   if(spectralCentroid> 8000){
 
